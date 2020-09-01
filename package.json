@@ -1,0 +1,21 @@
+{
+    "name": "ssh2-http-agent",
+    "version": "1.0.0",
+    "description": "Http Agent for access the internal network without setup the server on jump station / hop server",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "mattia.lau",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "tsc",
+        "publish": "npm publish"
+    },
+    "devDependencies": {
+        "@types/node": "^14.6.2",
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "ssh2": "^0.8.9"
+    }
+}
