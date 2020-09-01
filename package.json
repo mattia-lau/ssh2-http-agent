@@ -7,6 +7,13 @@
     "author": "mattia.lau",
     "license": "MIT",
     "private": false,
+    "keywords": [
+        "tunnel",
+        "forward",
+        "ssh",
+        "agent",
+        "proxy"
+    ],
     "scripts": {
         "build": "tsc",
         "publish": "npm publish"
@@ -17,5 +24,13 @@
     },
     "dependencies": {
         "ssh2": "^0.8.9"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mattia-lau/ssh2-http-agent.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mattia-lau/ssh2-http-agent/issues"
+    },
+    "homepage": "https://github.com/mattia-lau/ssh2-http-agent#readme"
 }
